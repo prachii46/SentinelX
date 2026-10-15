@@ -22,35 +22,35 @@ SentinelX is a Python-based cybersecurity project that analyzes application secu
 
 ## ⚙️ Project Setup
 
-### 1. Clone or download the project
+## 1. Clone or download the project
 Open PowerShell in the project directory.
 
-### 2. Create a virtual environment
+## 2. Create a virtual environment
 ```powershell
 python -m venv .venv
 ```
 
-### 3. Activate the environment
+## 3. Activate the environment
 ```powershell
 .\.venv\Scripts\Activate.ps1
 ```
 
-### 4. Install dependencies
+## 4. Install dependencies
 ```powershell
 python -m pip install -r requirements.txt
 ```
 
-###5. Generate synthetic security logs
+## 5. Generate synthetic security logs
 ```powershell
 python generate_logs.py
 ```
 
-###6. Run the tests
+## 6. Run the tests
 ```powershell
 python test_detector.py
 ```
 
-###7. Launch the dashboard
+## 7. Launch the dashboard
 ```powershell
 python -m streamlit run app.py
 ```
