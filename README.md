@@ -29,31 +29,28 @@ Open PowerShell in the project directory.
 ```powershell
 python -m venv .venv
 
-3. Activate the environment
-powershell
+### 3. Activate the environment
 .\.venv\Scripts\Activate.ps1
-4. Install dependencies
-powershell
+
+### 4. Install dependencies
 python -m pip install -r requirements.txt
-5. Generate synthetic security logs
-powershell
+
+###5. Generate synthetic security logs
 python generate_logs.py
-6. Run the tests
-powershell
+
+###6. Run the tests
 python test_detector.py
-7. Launch the dashboard
-powershell
+
+###7. Launch the dashboard
 python -m streamlit run app.py
-⚠️ Limitations
+
+##⚠️ Limitations
 The detection rules and risk scores are heuristic indicators intended for demonstration and educational use.
 A finding does not prove that an attack occurred.
 This project is not a replacement for a production security monitoring system.
 
-✅ Responsible Use
+##✅ Responsible Use
 Use synthetic logs or authorized security data.
 
 Test vulnerable applications only in an isolated environment that you control.
 
-Code
-
-Would you like me to also add a **sample screenshot section** (with p
